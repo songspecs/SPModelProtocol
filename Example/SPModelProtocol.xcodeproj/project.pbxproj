@@ -294,12 +294,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SPModelProtocol_Example/Pods-SPModelProtocol_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SPModelProtocol/SPModelProtocol.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SPModelProtocol.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

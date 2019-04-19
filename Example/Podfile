@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'SPModelProtocol_Example' do
-  pod 'SPModelProtocol', :path => '../'
+  pod 'SPModelProtocol', :podspec => '../SPModelProtocol.podspec'
 
   target 'SPModelProtocol_Tests' do
     inherit! :search_paths
