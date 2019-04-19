@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SPModelProtocol'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SPModelProtocol.'
+  s.version          = '0.0.1'
+  s.summary          = 'Model模块 SPModelProtocol.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -31,6 +31,9 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'SPModelProtocol/Classes/**/*'
+
+  s.swift_version = "4.2"
+  s.dependency 'SwiftyJSON', '~> 5.0.0'
   
   # s.resource_bundles = {
   #   'SPModelProtocol' => ['SPModelProtocol/Assets/*.png']
